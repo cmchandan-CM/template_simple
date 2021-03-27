@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border:1px solid red; */
+}
+
+/* #06f7ef */
+.nav{
+height: 80px;
+margin-bottom: 0;
+}
+.nav .logo{
+    float: left;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-left: 100px;
+    line-height: 78px;
+    color:#72c3f8;
+    font-size: 18px;
+   
+}
+.nav .menu{
+    float: right;
+}
+.nav .menu ul li {
+    display: inline-block;
+    padding:30px 15px;
+    margin-bottom: 0;
+    color: black;
+    
+}
+.nav .menu ul li:hover{
+    border-bottom:5px solid #72c3f8;
+    margin-bottom: 0;
+    background-color: #f3f3f3;
+}
+.nav .menu{
+margin-right: 40px;
+}
+.header{
+    margin-top: 0;
+       height: 500px;
+       background-image: url("1.jpg");
+       background-position:initial;
+       background-size: cover;
+       
+       /* border: 1px solid red; */
+       background-repeat: no-repeat;
+       position: relative;
+   }
+   .header .left-btn{
+     color: white;
+     font-size: 35px;
+     float: left;
+     position: absolute;
+     top: 47%;
+     left: 10px;
+     /* border: 1px solid red; */
+   }
+   .header .right-btn{
+    color: white;
+    font-size: 35px;
+    float: right;
+    position: absolute;
+    top: 47%;
+    right: 10px;
+    /* border: 1px solid red; */
+  }
+.header .content{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid; */
+    color: white;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.header .content h1{
+font-size: 45px;
+margin-bottom: 25px;
+}
+.header .content p{
+    margin-bottom: 25px;
+}
+.header .content a{
+border: 2px solid white;
+padding: 10px;
+color: white;
+opacity: 0.8;
+margin-bottom: 25px;
+transition: 0.4s;
+}
+.header .content a:hover{
+    background-color: #1de7d6;
+}
+.container .card{
+
+  
+    width: 250px;
+    height: 300;
+
+}
+.container{
+    color: #72c3f8 ;
+    width: 80%;
+    margin:50px auto;
+    
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.container .card .card-cotent .icon{
+    margin:5px 0 ;
+    text-align: none;
+   
+    
+}
+.container .card .card-cotent .icon i{
+    border-radius: 50%;
+    border: 4px solid ;
+    padding: 12px;
+    font-size: 50px;
+}
+.container .card .card-cotent h2{
+    color: black;
+    margin-bottom: 10px;
+}
+.container .card .card-cotent p{
+    color: black;
+    margin-bottom: 20px;
+}
+.container .card .card-cotent a{
+  background-color: #72c3f8;
+  color: white;
+  padding: 10px;
+ 
+}
+.container .card .card-cotent{
+    padding: 10px;
+}
+.container2{
+ 
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 50px;
+    text-align: center;
+    padding:40px 0;
+}
+.container2 .photos{
+display: flex;
+margin: auto;
+width: 80%;
+flex-wrap: wrap;
+justify-content:space-evenly;
+}
+.container2 .photos div img{
+  width: 250px;
+  height: 250px;  
+}
+.container2 .photos div{
+margin-left: 10px;
+margin-top: 20px;
+}
+.container2 .photos{
+    margin-bottom: 30px;
+}
+.container2 a{
+padding:10px 30px;
+background-color:  #72c3f8;
+color: white;
+
+
+}
+.container2 h2{
+    font-size: 35px;
+}
+.container3{
+margin-bottom: 20px;
+}
+.container3 .team .card2{
+width: 250px;
+/* border: 1px solid; */
+}
+.container3 .team{
+width: 80%;
+margin: auto;
+display: flex;
+text-align: center;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.container3 .team .card2 i{
+    font-size: 60px;
+    border:none;
+    border-radius: 50%;
+    padding: 80px;
+    color: #72c3f8;
+    background-color: rgb(231,230,230);
+    margin-bottom: 40px;
+}
+.container3 .team .card2 .desg{
+   color: gray; 
+   margin-bottom: 10px;
+}
+.container3 .team .card2 .title{
+    
+}
+.container3 h2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+    margin-bottom: 60px;
+
+}
+.container4 {
+margin: 80px 0;
+background-color: rgb(233, 233, 233);
+padding: 20px 0;
+}
+.container4 .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+.container4 .container-fluid .list ul li{
+    display: block;
+    text-align: center;
+    padding: 15px 90px;
+    border-bottom: 1px solid #e0dcdc;
+
+}
+.container4 .container-fluid .list ul .head{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+.container4 .container-fluid ul li a{
+color: white;
+background-color: #72c3f8;
+padding: 5px 20px;
+border-radius: 2px;
+}
+.container4 .container-fluid ul{
+    background-color: white;
+}
+.container4 .container-fluid .list{
+    margin: 20px 0;
+}
+.con{
+    padding:10px ;
+    height: 200px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flu{
+padding: 10px;
+width: 80%;
+margin: 0 auto;
+/* background-color: violet; */
+position: relative;
+}
+
+.bar{
+    /* background-color: yellow; */
+    text-align: center;   
+}
+.con .flu .bar h1{
+    margin-bottom: 40px;
+  /* color: red; */
+}
+.con .flu .left-a{
+    /* background-color: red; */
+    position: absolute;
+    left: 0;
+    top: 50%;
+   
+}
+.con .flu .right-a{
+    /* background-color: red;   */
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.con .flu i{
+    font-size: 25px;
+    color: gray;
+    font-weight: lighter;
+}
+.bar p{
+    margin-bottom: 20px;
+}
+.footer{
+background-image: url("2.jpg");
+background-position: center;
+background-size: cover;
+color: white;
+font-weight: lighter;
+padding: 40px;
+}
+.fluid{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer h1{
+    text-align: center;
+    
+}
+.icn-grp{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.left-s p{
+    margin-bottom: 10px;
+}
+.left-s h3{
+    margin-bottom: 10px;
+}
+
+.right-s .one input{
+width: 250px;
+height: 25px;
+margin-bottom: 10px;
+}
+.right-s .two{
+    width: 504px;
+    height: 250px;
+
+    }
+
+@media screen and (max-width:711px){
+    .right-s .two{
+        width: 250px;
+        height: 250px;
+    
+        } 
+}
+
+
+
+
+
+
